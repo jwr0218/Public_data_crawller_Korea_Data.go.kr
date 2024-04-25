@@ -1,16 +1,19 @@
-# Public_data_crawller_Korea_Data.go.kr
-공공데이터 크롤러
+# Crawler
 
+셀레니움을 활용한 크롤러입니다.
 
-공공데이터( Data.go.kr ) 크롤러 입니다.
-
-해당 페이지가 페이지 크기에 따라 attribute 가 변하는 속성을 가지고 있기 때문에 해당 크롤링이 진행 되는 크기에 맞게 설정을 해 주셔야 합니다.
-
-뽑아내는 컬럼으로는
-
-제목 , 수정일 , keyword , 설명 , column name 등이 있습니다.
+### Pacakage Install 
 
 ```shell
-python Public_data_crawler.py
+pip install selenium
+pip install bs4
+```
+### Chrome Driver Download
+Link : https://sites.google.com/a/chromium.org/chromedriver/downloads
+각 Chrome Version에 맞는 Driver를 설치합니다.
+
+```shell
+python (crawler_file).py
 ```
 
+Output : output folder
