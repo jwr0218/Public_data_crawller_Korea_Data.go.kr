@@ -63,7 +63,7 @@ while True:
         
         print(data_for_concat)
         print("count : ",cnt )
-        data.to_csv("/Users/jeong-wonlyeol/Desktop/윌라_앱스토어.csv")
+        data.to_csv("../output/appstore.csv")
         
         
     except Exception as e:
