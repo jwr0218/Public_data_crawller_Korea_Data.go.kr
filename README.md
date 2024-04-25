@@ -10,3 +10,7 @@
 
 제목 , 수정일 , keyword , 설명 , column name 등이 있습니다.
 
+```shell
+python Public_data_crawler.py
+```
+
